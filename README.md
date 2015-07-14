@@ -1,4 +1,4 @@
-# VIOS_EMC_Luns_mapper
+# vios_lun_mapper_emc
 
 This script was designed to relate EMC luns to its virtualized lpar on IBM PoweVM environments. 
 
