@@ -2,9 +2,9 @@
 #Name:vio_lun_mapper_emc.sh   Date:10/12/2014 
 #Description: Prints information of EMC Powerpath disks inside a VIOS Server, relating to the lpar using it.
 #Author: Wellington Silva wellsilva.email@gmail.com
-HMC='HMC_ADDRESS'		#DNS Name or ip of the HMC
+HMC='HMC_ADDRESS'			#DNS Name or ip of the HMC
 HMC_MANAG_SYS="Managed sys name"  	# Name of the VIOS's Managed System 
-BASE_DIR='Put temp dir to use here'		# Put a dir where the script can use to output and write some temporary data
+BASE_DIR=''				# Put a dir where the script can use to output and write some temporary data
 LSMAP="$BASE_DIR/tmp/lsmap_tmp.txt"
 IDS_LPARES_HMC="$BASE_DIR/tmp/ids_lpares_hmc.txt"
 IDS_LPARES_LSMAP="$BASE_DIR/tmp/ids_lpares.txt"
