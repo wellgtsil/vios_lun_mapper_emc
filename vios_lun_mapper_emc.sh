@@ -1,5 +1,5 @@
 #!/usr/bin/ksh
-#Name:vio_disk_info_collector.sh   Date:10/12/2014 
+#Name:vio_lun_mapper_emc.sh   Date:10/12/2014 
 #Description: Prints information of EMC Powerpath disks inside a VIOS Server, relating to the lpar using it.
 #Author: Wellington Silva wellsilva.email@gmail.com
 HMC='HMC_ADDRESS'		#DNS Name or ip of the HMC
